@@ -53,10 +53,8 @@ open MoltShot.xcodeproj
 
 ## 截图
 
-
-更多见 `Screenshots/`：
-- ![菜单栏入口](Screenshots/01-menu.jpg) 菜单栏入口
-- ![结果弹窗](Screenshots/03-result.jpg) 结果弹窗
+- ![菜单栏入口](Screenshots/01-menu.jpg)
+- ![结果弹窗](Screenshots/03-result.jpg)
 
 ## Roadmap
 - 多显示器/Retina 坐标映射进一步完善
