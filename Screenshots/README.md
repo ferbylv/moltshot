@@ -2,7 +2,7 @@
 
 把截图放这里：
 
-- `01-menu.png` 菜单栏入口
+- `01-menu.jpg` 菜单栏入口
 - `02-selection.png` 框选截图 UI
 - `03-result.png` 识别 + 翻译结果弹窗
 

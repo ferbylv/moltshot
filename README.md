@@ -52,12 +52,13 @@ open MoltShot.xcodeproj
 - 框选区域后松开鼠标：弹出原文 + 译文
 
 ## 截图
-见 `Screenshots/`：
-- `01-menu.png` 菜单栏入口
+
+![菜单栏入口](Screenshots/01-menu.jpg)
+
+更多见 `Screenshots/`：
+- `01-menu.jpg` 菜单栏入口
 - `02-selection.png` 框选 UI
 - `03-result.png` 结果弹窗
-
-（你可以自己补三张截图，我后续也可以帮你整理到 README 展示位。）
 
 ## Roadmap
 - 多显示器/Retina 坐标映射进一步完善
