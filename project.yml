@@ -1,0 +1,45 @@
+name: MoltShot
+options:
+  bundleIdPrefix: com.molt
+  deploymentTarget:
+    macOS: 15.0
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    MACOSX_DEPLOYMENT_TARGET: 15.0
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.1.0
+    PRODUCT_NAME: 熔译
+    CODE_SIGN_ENTITLEMENTS: Resources/MoltShot.entitlements
+    INFOPLIST_KEY_NSHumanReadableCopyright: ""
+
+targets:
+  MoltShot:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+      - path: Resources/Assets.xcassets
+    resources:
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.molt.moltshot
+        INFOPLIST_FILE: MoltShot/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFTUI_PREVIEWS: YES
+    entitlements:
+      path: Resources/MoltShot.entitlements
+    dependencies:
+      - sdk: ScreenCaptureKit.framework
+      - sdk: Vision.framework
+      - sdk: NaturalLanguage.framework
+      - sdk: Translation.framework
+
+schemes:
+  MoltShot:
+    build:
+      targets:
+        MoltShot: all
+    run:
+      config: Debug

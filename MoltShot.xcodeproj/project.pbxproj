@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A01CC7D3E6A8B44556DBCA /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B0C7F6C4F38E12252BC58E /* MenuBarController.swift */; };
+		0BD688BD8D38138F8EFA80BF /* ResultWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196AE8BEFB2CB17B80513F2 /* ResultWindowController.swift */; };
+		1496CF8ACB0548B732521AF8 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7780B4EE56EFE1822E8D9A4 /* SpeechManager.swift */; };
+		1D3BBE1FA564248CF8F8F65C /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C2A817BB11F73CE924C7A /* DisplayMode.swift */; };
+		1E0D94AE0B23614708503FB1 /* Translation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5B3E1283793E1427D4F4D /* Translation.framework */; };
+		2C78176013141B0388E36BD2 /* ScreenCaptureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F106D4D10B78F912EA62E7B4 /* ScreenCaptureKit.framework */; };
+		35F5D1BE48CF5C77DE7FF529 /* ScrollSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BDA234B16C8561CDE0FF1A /* ScrollSync.swift */; };
+		435CCB2AA03B22FEDEF001E1 /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8EF2B717A7FC28285F873A /* NaturalLanguage.framework */; };
+		4FC33C3FAF2895EBA84615EB /* SyncedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231D3C99297E12B31F0F951 /* SyncedTextView.swift */; };
+		50CF4DB602E10B06C4469479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B746B886F9BEF300D945045C /* Assets.xcassets */; };
+		77748D07B2077EC70CA7A476 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E852C10921DECA86C92F384 /* AppState.swift */; };
+		778AD6BB5D10DF7E5C8C6305 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCCB0F1C9AC1E8DD7288D7B /* HotKeyManager.swift */; };
+		7F480ABF24B92211B3E8FBD2 /* LanguageDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47597EE7F0EBBFAFAB70EE /* LanguageDetector.swift */; };
+		7FCBDDFF1A28EAB8480C231E /* SelectionOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909E22FBC41F0080D8092332 /* SelectionOverlayWindow.swift */; };
+		822CEBB213FADF1382DF43F7 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F52AEAE7123D25855F2CF6 /* Vision.framework */; };
+		9015971C605B6B4929EBCA8F /* MoltShotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2FF21204174940FA4F2952 /* MoltShotApp.swift */; };
+		9DCF3FE98C6408A6A395BEAF /* ScreenCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E591F92EE8E6931426FDC87 /* ScreenCaptureManager.swift */; };
+		B25A81996F74214C631409FA /* ResultPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097839CC34F47143269DC5F /* ResultPopoverView.swift */; };
+		DFAAA7823D55A0FF64B5C0B4 /* SelectionOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8755F2C961D72C86DFBF427A /* SelectionOverlayView.swift */; };
+		E4669D0E5CE6257FE5C7CA70 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E06B2841145578382649E /* Translator.swift */; };
+		EA227D01376574A06508302C /* OCRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE77F5B784A86DD300AF1727 /* OCRManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15BDA234B16C8561CDE0FF1A /* ScrollSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSync.swift; sourceTree = "<group>"; };
+		1BCCB0F1C9AC1E8DD7288D7B /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		1F47597EE7F0EBBFAFAB70EE /* LanguageDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDetector.swift; sourceTree = "<group>"; };
+		285C2A817BB11F73CE924C7A /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
+		3231D3C99297E12B31F0F951 /* SyncedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncedTextView.swift; sourceTree = "<group>"; };
+		4097839CC34F47143269DC5F /* ResultPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopoverView.swift; sourceTree = "<group>"; };
+		4E591F92EE8E6931426FDC87 /* ScreenCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureManager.swift; sourceTree = "<group>"; };
+		5196AE8BEFB2CB17B80513F2 /* ResultWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultWindowController.swift; sourceTree = "<group>"; };
+		5E2FF21204174940FA4F2952 /* MoltShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoltShotApp.swift; sourceTree = "<group>"; };
+		73B0C7F6C4F38E12252BC58E /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		83F52AEAE7123D25855F2CF6 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		8755F2C961D72C86DFBF427A /* SelectionOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionOverlayView.swift; sourceTree = "<group>"; };
+		8E852C10921DECA86C92F384 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		909E22FBC41F0080D8092332 /* SelectionOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionOverlayWindow.swift; sourceTree = "<group>"; };
+		94D5B3E1283793E1427D4F4D /* Translation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Translation.framework; path = System/Library/Frameworks/Translation.framework; sourceTree = SDKROOT; };
+		A7780B4EE56EFE1822E8D9A4 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		B746B886F9BEF300D945045C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE77F5B784A86DD300AF1727 /* OCRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRManager.swift; sourceTree = "<group>"; };
+		CE8EF2B717A7FC28285F873A /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
+		F106D4D10B78F912EA62E7B4 /* ScreenCaptureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenCaptureKit.framework; path = System/Library/Frameworks/ScreenCaptureKit.framework; sourceTree = SDKROOT; };
+		F52B45A48D06F1AAAEFB5656 /* MoltShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoltShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E06B2841145578382649E /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14761119C78A05EF9E8069C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C78176013141B0388E36BD2 /* ScreenCaptureKit.framework in Frameworks */,
+				822CEBB213FADF1382DF43F7 /* Vision.framework in Frameworks */,
+				435CCB2AA03B22FEDEF001E1 /* NaturalLanguage.framework in Frameworks */,
+				1E0D94AE0B23614708503FB1 /* Translation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6CDE49B50D6A3EEB383FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EF2B717A7FC28285F873A /* NaturalLanguage.framework */,
+				F106D4D10B78F912EA62E7B4 /* ScreenCaptureKit.framework */,
+				94D5B3E1283793E1427D4F4D /* Translation.framework */,
+				83F52AEAE7123D25855F2CF6 /* Vision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405A3C5496C6550013476A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52B45A48D06F1AAAEFB5656 /* MoltShot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47111BD9406D7805A3A2E9FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B746B886F9BEF300D945045C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		97964E75B2B0025CF3DFACE9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E852C10921DECA86C92F384 /* AppState.swift */,
+				285C2A817BB11F73CE924C7A /* DisplayMode.swift */,
+				1BCCB0F1C9AC1E8DD7288D7B /* HotKeyManager.swift */,
+				1F47597EE7F0EBBFAFAB70EE /* LanguageDetector.swift */,
+				73B0C7F6C4F38E12252BC58E /* MenuBarController.swift */,
+				5E2FF21204174940FA4F2952 /* MoltShotApp.swift */,
+				BE77F5B784A86DD300AF1727 /* OCRManager.swift */,
+				4097839CC34F47143269DC5F /* ResultPopoverView.swift */,
+				5196AE8BEFB2CB17B80513F2 /* ResultWindowController.swift */,
+				4E591F92EE8E6931426FDC87 /* ScreenCaptureManager.swift */,
+				15BDA234B16C8561CDE0FF1A /* ScrollSync.swift */,
+				8755F2C961D72C86DFBF427A /* SelectionOverlayView.swift */,
+				909E22FBC41F0080D8092332 /* SelectionOverlayWindow.swift */,
+				A7780B4EE56EFE1822E8D9A4 /* SpeechManager.swift */,
+				3231D3C99297E12B31F0F951 /* SyncedTextView.swift */,
+				FC7E06B2841145578382649E /* Translator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CA24FF6002B9AE747D991701 = {
+			isa = PBXGroup;
+			children = (
+				47111BD9406D7805A3A2E9FC /* Resources */,
+				97964E75B2B0025CF3DFACE9 /* Sources */,
+				2F6CDE49B50D6A3EEB383FE1 /* Frameworks */,
+				405A3C5496C6550013476A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BD1A9AE8EC719FFDA141285 /* MoltShot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCE7E60A0436E594D33A58A /* Build configuration list for PBXNativeTarget "MoltShot" */;
+			buildPhases = (
+				D75D8E86ECBA50C57604C892 /* Sources */,
+				2F0C850DC05CDFEAD950C419 /* Resources */,
+				D14761119C78A05EF9E8069C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoltShot;
+			packageProductDependencies = (
+			);
+			productName = MoltShot;
+			productReference = F52B45A48D06F1AAAEFB5656 /* MoltShot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FF84B3472A29F3B178F867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = A59D8FE98FE5B88E4C4B61CC /* Build configuration list for PBXProject "MoltShot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CA24FF6002B9AE747D991701;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BD1A9AE8EC719FFDA141285 /* MoltShot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0C850DC05CDFEAD950C419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CF4DB602E10B06C4469479 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75D8E86ECBA50C57604C892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77748D07B2077EC70CA7A476 /* AppState.swift in Sources */,
+				1D3BBE1FA564248CF8F8F65C /* DisplayMode.swift in Sources */,
+				778AD6BB5D10DF7E5C8C6305 /* HotKeyManager.swift in Sources */,
+				7F480ABF24B92211B3E8FBD2 /* LanguageDetector.swift in Sources */,
+				02A01CC7D3E6A8B44556DBCA /* MenuBarController.swift in Sources */,
+				9015971C605B6B4929EBCA8F /* MoltShotApp.swift in Sources */,
+				EA227D01376574A06508302C /* OCRManager.swift in Sources */,
+				B25A81996F74214C631409FA /* ResultPopoverView.swift in Sources */,
+				0BD688BD8D38138F8EFA80BF /* ResultWindowController.swift in Sources */,
+				9DCF3FE98C6408A6A395BEAF /* ScreenCaptureManager.swift in Sources */,
+				35F5D1BE48CF5C77DE7FF529 /* ScrollSync.swift in Sources */,
+				DFAAA7823D55A0FF64B5C0B4 /* SelectionOverlayView.swift in Sources */,
+				7FCBDDFF1A28EAB8480C231E /* SelectionOverlayWindow.swift in Sources */,
+				1496CF8ACB0548B732521AF8 /* SpeechManager.swift in Sources */,
+				4FC33C3FAF2895EBA84615EB /* SyncedTextView.swift in Sources */,
+				E4669D0E5CE6257FE5C7CA70 /* Translator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65DD159B57FDEA644DC827F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/MoltShot.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoltShot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.molt.moltshot;
+				SDKROOT = macosx;
+				SWIFTUI_PREVIEWS = YES;
+			};
+			name = Release;
+		};
+		A6F59611F48A76FA6EAC240E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/MoltShot.entitlements;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "熔译";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC900D54FED3944F4A7509AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/MoltShot.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MoltShot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.molt.moltshot;
+				SDKROOT = macosx;
+				SWIFTUI_PREVIEWS = YES;
+			};
+			name = Debug;
+		};
+		CA45811CDBD6F78DEB2E2973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/MoltShot.entitlements;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "熔译";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59D8FE98FE5B88E4C4B61CC /* Build configuration list for PBXProject "MoltShot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F59611F48A76FA6EAC240E /* Debug */,
+				CA45811CDBD6F78DEB2E2973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBCE7E60A0436E594D33A58A /* Build configuration list for PBXNativeTarget "MoltShot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC900D54FED3944F4A7509AD /* Debug */,
+				65DD159B57FDEA644DC827F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FF84B3472A29F3B178F867 /* Project object */;
+}
